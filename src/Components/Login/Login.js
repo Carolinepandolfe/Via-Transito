@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { BrowserRouter ,Link } from "react-router-dom";
 import logo from '../../assets/logo.png';
 import '../Login/Login.css';
-// import Input from '../Login/inputLogin';
 
-export default class Login extends Component{
+class Login extends React.Component{
     render(){
         return(
             <div className="container">
@@ -21,9 +21,18 @@ export default class Login extends Component{
                         <span class="underline-email span"></span>
                         <input type="password" className="senha"placeholder="senha"/>
                         <span class="underline-senha span"></span>
+
                         <div className="btn">
-                            <button className="btn-verde">Entrar</button>
+
+                            < BrowserRouter >
+
+                                <Link to="/feed"><button className="btn-verde">Entrar</button>
+                                </Link>
+
+                            </BrowserRouter >
+
                             <button className="btn-amarelo">Cadastrar</button> 
+                            
                         </div>
                     </div>
 
@@ -31,8 +40,9 @@ export default class Login extends Component{
                 </div>
 
                 
-
             </div>
         )
     }
 }
+
+export default Login;

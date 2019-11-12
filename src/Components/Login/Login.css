@@ -1,7 +1,8 @@
-body{
+.container{
     margin: 0;
     background-color: #F95F62;
 }
+
 
 .nome-logo{
     display: flex;
@@ -21,7 +22,7 @@ img{
 .cadastro{
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 100vw;
     align-items: center;
     margin-top: 5%;
 }
@@ -63,6 +64,8 @@ input:focus+.span {
 }
 
 .btn{
+    display: flex;
+    flex-direction: column;
     margin-top: 20%;
 }
 
