@@ -10,7 +10,7 @@ class App extends React.Component {
           <BrowserRouter>
             <Switch>
               <Route path="/" exact component={Login}/>
-              <Route path="/feed" exact component={Feed}/>
+              <Route path="/feed" component={Feed}/>
             </Switch>
           </BrowserRouter>
 

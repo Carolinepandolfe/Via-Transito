@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter ,Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from '../../assets/logo.png';
 import '../Login/Login.css';
 
@@ -18,20 +18,19 @@ class Login extends React.Component{
                     <div className="cadastro">
                 
                         <input type="text" className="email" placeholder="e-mail ou cpf"/>
-                        <span class="underline-email span"></span>
+                        <span className="underline-email span"></span>
                         <input type="password" className="senha"placeholder="senha"/>
-                        <span class="underline-senha span"></span>
+                        <span className="underline-senha span"></span>
 
                         <div className="btn">
 
-                            < BrowserRouter >
+                            
 
-                                <Link to="/feed"><button className="btn-verde">Entrar</button>
+                                <Link to="/feed"><button className="button">Entrar</button>
                                 </Link>
 
-                            </BrowserRouter >
 
-                            <button className="btn-amarelo">Cadastrar</button> 
+                            <button className="button">Cadastrar</button> 
                             
                         </div>
                     </div>

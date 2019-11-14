@@ -69,7 +69,7 @@ input:focus+.span {
     margin-top: 20%;
 }
 
-button{
+.button{
     margin-top: 3%;
     border: none;
     width: 50vw;
@@ -80,6 +80,7 @@ button{
     text-transform: uppercase;
     text-align: center;
     font-size: 60%;
+    text-decoration: none;
 }
 
 
