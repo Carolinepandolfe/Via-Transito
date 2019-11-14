@@ -17,6 +17,7 @@ h1{
 
 img{
     width: 30vw;
+    margin-top: 20%;
 }
 
 .cadastro{
@@ -67,6 +68,7 @@ input:focus+.span {
     display: flex;
     flex-direction: column;
     margin-top: 20%;
+    margin-bottom: 100%;
 }
 
 .button{
