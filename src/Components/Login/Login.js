@@ -10,8 +10,8 @@ class Login extends React.Component{
                 <div className="login">
 
                     <div className="nome-logo">
-                        <img src={logo} alt=""/>
-                        <h1>VIA<span>TRÂNSITO</span></h1>
+                        <img className="logo" src={logo} alt=""/>
+                        <h1 className="nome">VIA<span className="span-nome">TRÂNSITO</span></h1>
                     </div>
 
 

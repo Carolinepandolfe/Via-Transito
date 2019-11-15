@@ -10,12 +10,12 @@
     flex-direction: column;  
 }
 
-h1{
+.nome{
     color: white;
     font-size: 5vw;
 }
 
-img{
+.logo{
     width: 30vw;
     margin-top: 20%;
 }
@@ -87,7 +87,7 @@ input:focus+.span {
 
 
 
-span{
+span.span-nome{
     color: #FDE74C;
 }
 
