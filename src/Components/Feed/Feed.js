@@ -5,7 +5,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-import { Icon, Card, CardActionArea, CardMedia, CardContent } from '@material-ui/core';
+import {Card, CardActionArea, CardMedia,  } from '@material-ui/core';
 import HomeIcon from '@material-ui/icons/Home';
 import SearchIcon from '@material-ui/icons/Search';
 import NotificationsIcon from '@material-ui/icons/Notifications';
@@ -16,7 +16,6 @@ import info from "../../assets/info.png";
 import detran from "../../assets/detran.png";
 import filtro from "../../assets/filtro.png";
 import quiz from "../../assets/quiz.png";
-import home from "../../assets/home.png";
 
 class Feed extends React.Component{
     render(){
