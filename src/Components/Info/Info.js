@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Info/Info.css';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
@@ -40,7 +40,9 @@ class Info extends React.Component{
 
                 <BottomNavigation>
                     <BottomNavigationAction icon={<SearchIcon />} />
-                    <BottomNavigationAction icon={<HomeIcon />} />
+                    <Link to="/feed">
+                        <BottomNavigationAction icon={<HomeIcon />} />
+                    </Link>
                     <BottomNavigationAction icon={<NotificationsIcon />} />
                 </BottomNavigation>
             </div>

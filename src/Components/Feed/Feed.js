@@ -111,7 +111,9 @@ class Feed extends React.Component{
 
                 <BottomNavigation>
                     <BottomNavigationAction icon={<SearchIcon />} />
-                    <BottomNavigationAction icon={<HomeIcon />} />
+                    <Link to="/feed">
+                        <BottomNavigationAction icon={<HomeIcon />} />
+                    </Link>
                     <BottomNavigationAction icon={<NotificationsIcon />} />
                 </BottomNavigation>
             </div>
