@@ -1,0 +1,20 @@
+.logo-header{
+    width: 10vw;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10vw 0 10vw;
+}
+
+.info-text{
+    background-color: rgb(255, 255, 68);
+}
+

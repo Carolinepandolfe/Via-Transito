@@ -23,7 +23,7 @@ class Feed extends React.Component{
             <div className="main">
                 <AppBar position="static"  style={{ background: '#fff' }}> 
                    <Toolbar>
-                        <img class="fa fa-thumbs-up" className="logo-feed" src={logoHeader} alt=""/>
+                        <img class="fa fa-thumbs-up" className="logo-header" src={logoHeader} alt=""/>
                         <h2 className="nome-header">Via<span className="span-header">Trânsito</span></h2>    
                     </Toolbar>
                 </AppBar>
@@ -86,7 +86,7 @@ class Feed extends React.Component{
                         <Card className="div-info">  
                                 <CardActionArea>
                                     <CardMedia>
-                                        <Link>
+                                        <Link to="/info">
                                             <img className="info" src={info} alt=""/>
                                             <p>Info</p>
                                         </Link>
