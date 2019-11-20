@@ -12,11 +12,6 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import logoHeader from "../../assets/car.png"
 
 class Quiz extends React.Component{
-
-    
-
-
-
     render(){
         return(
             <div className="pergunta">
