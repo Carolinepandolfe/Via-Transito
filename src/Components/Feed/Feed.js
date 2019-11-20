@@ -97,7 +97,7 @@ class Feed extends React.Component{
                             <Card className="div-quiz">  
                                 <CardActionArea>
                                     <CardMedia>
-                                    <Link>
+                                    <Link to="/quiz">
                                         <img className="quiz" src={quiz} alt=""/>
                                         <p>Quiz</p>
                                     </Link>

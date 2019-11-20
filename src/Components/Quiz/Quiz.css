@@ -1,0 +1,25 @@
+.perguntas{
+    display: flex;
+    justify-content: center;
+}
+.div-btn{
+    display: flex;
+    justify-content: space-around;
+}
+.pergunta-quiz{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10vw 10vw 10vw;
+}
+
+button.format{
+    border: none;
+    background-color: rgba(206, 203, 203, 0.226);
+    width: 30vw;
+    border: 2px solid rgba(0, 0, 0, 0.438);
+    border-radius: 5px;
+}
+
+.none{
+    display: none;
+}
